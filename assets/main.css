@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__nuxt {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+}
+
+aside {
+    width: 250px;
+    background-color: #333;
+}
+
+footer {
+    height: 50px;
+}
